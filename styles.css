@@ -1,7 +1,9 @@
 body {
   margin: 0;
   padding: 0;
+background: url(3.png);
 }
+
 *, *:after, *:before {
   box-sizing: border-box;
 }
@@ -14,7 +16,7 @@ body {
   padding-right: 0;
 }
 article {
-  background-color: yellow;
+  background-color: #b5c0d1;
 }
 .grid-pad {
   padding: 20px 0 20px 20px;
