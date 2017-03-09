@@ -1,9 +1,17 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: sans-serif;
 background: url(3.png);
 }
+h1 {
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
 
+  width: 400px;
+  margin: auto;
+}
 *, *:after, *:before {
   box-sizing: border-box;
 }
@@ -16,7 +24,7 @@ background: url(3.png);
   padding-right: 0;
 }
 article {
-  background-color: #b5c0d1;
+  background-color: #edefef;
 }
 .grid-pad {
   padding: 20px 0 20px 20px;
@@ -35,6 +43,7 @@ article {
 }
 .col-1-4 {
   width: 25%;
+
 }
 .col-1-8 {
   width: 12.5%;
